@@ -37,7 +37,7 @@ An interactive sales analytics dashboard built with **Python, Streamlit, Pandas,
 ├── adidas-logo.jpg        # Branding image  
 ├── app.py                 # Streamlit application  
 ├── requirements.txt       # Dependencies  
-└── README.md              # Documentation  
+├── README.md              # Documentation  
 
 ## 🌐 Live Deployment
 The dashboard is deployed on Streamlit Community Cloud and publicly accessible using the link above.
