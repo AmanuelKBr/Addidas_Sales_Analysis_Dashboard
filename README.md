@@ -65,8 +65,8 @@ Integration with SQL or cloud data sources
 
 ## 👤 Author
 **Amanuel Birri**  
-Data & Analytics Engineer | Data Scientist  
-LinkedIn | GitHub  
+Data & Analytics Engineer | Applied Data Scientist  
+🔗 LinkedIn | 💻 GitHub
 
 ## 📄 License
 This project is for educational and portfolio purposes only. The dataset is used solely for demonstration.
