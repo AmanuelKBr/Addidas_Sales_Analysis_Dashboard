@@ -46,10 +46,15 @@ The application enables stakeholders to explore trends, compare performance metr
 ---
 
 ## 📂 Project Structure
+
 ├── Adidas.xlsx # Sales dataset
+
 ├── adidas-logo.jpg # Branding image
+
 ├── app.py # Streamlit application
+
 ├── requirements.txt # Dependencies
+
 └── README.md # Documentation
 
 
@@ -69,6 +74,7 @@ cd adidas-sales-dashboard
 pip install -r requirements.txt
 streamlit run app.py
 
+## 📂 Project Structure
 🧠 Skills Demonstrated
 
 Exploratory Data Analysis (EDA)
@@ -98,7 +104,7 @@ Integration with SQL or cloud data sources
 👤 Author
 
 Amanuel Birri
-Data & Analytics Engineer | Applied Data Scientist
+Data & Analytics Engineer | Data Scientist
 🔗 LinkedIn | 💻 GitHub
 
 📄 License
