@@ -1,184 +1,106 @@
-
+![Python](https://img.shields.io/badge/Python-3.9+-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-Cloud-red)
+![Plotly](https://img.shields.io/badge/Plotly-Interactive-orange)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green)
+![Status](https://img.shields.io/badge/Status-Deployed-success)
 
 # 🏷️ Adidas Interactive Sales Dashboard
 
-## 📌 Project Overview
+🔗 **Live App:**  
+https://addidassalesanalysisdashboard-cfgybbqrsmgw2r6w2abwtu.streamlit.app/
 
-This project is an **interactive sales analytics dashboard** built using **Python, Streamlit, Pandas, and Plotly**. It analyzes Adidas retail sales data to uncover insights across **retailers, time, geography, and sales performance metrics**.
+---
 
-The dashboard is designed to support **data-driven decision making** by enabling users to:
+## 📌 Overview
+An interactive sales analytics dashboard built with **Python, Streamlit, Pandas, and Plotly** to analyze Adidas retail sales performance across **retailers, time, and geography**.
 
-* Explore sales trends over time
-* Compare retailer and state-level performance
-* Analyze units sold vs revenue
-* Visualize regional sales distribution
-
-This project demonstrates **end-to-end data analysis skills**, from data ingestion and transformation to interactive visualization and deployment — aligning closely with **Data Scientist / Analytics Engineer responsibilities**.
+The application enables stakeholders to explore trends, compare performance metrics, and download insights through a clean, self-service interface. This project demonstrates **end-to-end analytics**, from data ingestion and transformation to **cloud deployment**.
 
 ---
 
 ## 🎯 Objectives
-
-* Transform raw Excel sales data into meaningful insights
-* Build an interactive, business-friendly dashboard
-* Enable stakeholders to download aggregated datasets
-* Showcase data storytelling and visualization best practices
+- Transform raw Excel sales data into actionable insights  
+- Build a business-friendly, interactive dashboard  
+- Enable self-service data exploration and CSV exports  
+- Demonstrate analytics, visualization, and deployment skills  
 
 ---
 
 ## 🧰 Tech Stack
+- **Language:** Python  
+- **Data Processing:** Pandas  
+- **Visualization:** Plotly (Express & Graph Objects)  
+- **App Framework:** Streamlit  
+- **Data Source:** Excel  
+- **Deployment:** Streamlit Community Cloud  
 
-| Category        | Tools                            |
-| --------------- | -------------------------------- |
-| Language        | Python                           |
-| Data Processing | Pandas                           |
-| Visualization   | Plotly (Express & Graph Objects) |
-| App Framework   | Streamlit                        |
-| Data Source     | Excel (`Adidas.xlsx`)            |
-| Image Handling  | Pillow (PIL)                     |
+---
+
+## 📊 Key Features
+- **Retailer Performance Analysis:** Total sales comparison with downloadable summaries  
+- **Time-Series Trends:** Monthly sales aggregation for growth and seasonality insights  
+- **State-Level Performance:** Dual-axis visualization of revenue vs units sold  
+- **Geographic Distribution:** Region → City treemap for sales concentration analysis  
+- **Data Transparency:** Expandable tables and one-click CSV downloads  
 
 ---
 
 ## 📂 Project Structure
+├── Adidas.xlsx # Sales dataset
+├── adidas-logo.jpg # Branding image
+├── app.py # Streamlit application
+├── requirements.txt # Dependencies
+└── README.md # Documentation
 
-```bash
-├── Adidas.xlsx                # Raw sales dataset
-├── adidas-logo.jpg            # Branding image
-├── app.py                     # Streamlit dashboard application
-├── README.md                  # Project documentation
-├── requirements.txt           # Required imports to keep the app running
-```
 
 ---
 
-## 📊 Dataset Description
+## 🌐 Live Deployment
+The dashboard is deployed on **Streamlit Community Cloud** and publicly accessible:
 
-The dataset represents **Adidas retail sales transactions** across different regions, states, cities, and product categories.
-
-### Key Columns
-
-| Column          | Description                       |
-| --------------- | --------------------------------- |
-| Retailer        | Retail partner name               |
-| RetailerID      | Unique retailer identifier        |
-| InvoiceDate     | Transaction date                  |
-| Region          | Sales region                      |
-| State           | State of sale                     |
-| City            | City of sale                      |
-| Product         | Product category                  |
-| PriceperUnit    | Unit price                        |
-| UnitsSold       | Quantity sold                     |
-| TotalSales      | Revenue generated                 |
-| OperatingProfit | Profit earned                     |
-| OperatingMargin | Profit margin                     |
-| SalesMethod     | Sales channel (In-store / Outlet) |
+🔗 https://addidassalesanalysisdashboard-cfgybbqrsmgw2r6w2abwtu.streamlit.app/
 
 ---
 
-## ⚙️ Features & Analytics
-
-### 🔹 1. Retailer Sales Analysis
-
-* Bar chart of **Total Sales by Retailer**
-* Expandable data table with CSV export
-
-### 🔹 2. Time Series Sales Trends
-
-* Monthly aggregation using `InvoiceDate`
-* Line chart showing **Total Sales Over Time**
-* Enables trend detection and seasonality analysis
-
-### 🔹 3. State-Level Performance
-
-* Dual-axis chart:
-
-  * **Bar:** Total Sales
-  * **Line:** Units Sold
-* Highlights revenue vs volume dynamics
-
-### 🔹 4. Regional & City Sales Distribution
-
-* Interactive **Treemap** visualization
-* Drill-down from Region → City
-* Sales values formatted in millions for readability
-
-### 🔹 5. Data Transparency
-
-* Expandable views for:
-
-  * Aggregated datasets
-  * Raw transaction data
-* One-click CSV downloads for further analysis
-
----
-
-## 🖥️ Dashboard Preview (Conceptual)
-
-* Wide-layout responsive UI
-* Brand-aligned header with Adidas logo
-* Clean visual hierarchy
-* Business-focused metrics
-
----
-
-## 🚀 How to Run the Project
-
-### 1️⃣ Clone the Repository
-
+## 🚀 Run Locally
 ```bash
 git clone https://github.com/your-username/adidas-sales-dashboard.git
 cd adidas-sales-dashboard
-```
-
-### 2️⃣ Install Dependencies
-
-```bash
-pip install streamlit pandas plotly pillow openpyxl
-```
-
-### 3️⃣ Run the App
-
-```bash
+pip install -r requirements.txt
 streamlit run app.py
-```
-###
-```OR click the Dashboard URL directly:
-https://addidassalesanalysisdashboard-cfgybbqrsmgw2r6w2abwtu.streamlit.app/
-```
----
 
-## 🧠 Data Science Skills Demonstrated
+🧠 Skills Demonstrated
 
-* Exploratory Data Analysis (EDA)
-* Time-series aggregation
-* KPI calculation and comparison
-* Data visualization & storytelling
-* Dashboard development
-* Data export & reproducibility
-* Business-oriented insight delivery
+Exploratory Data Analysis (EDA)
 
----
+Time-series aggregation
 
-## 📈 Potential Enhancements
+KPI analysis and comparison
 
-* Add filters (Region, Product, Sales Method)
-* Profit & margin trend analysis
-* Forecasting using time-series models
-* Deployment on Streamlit Cloud
-* Integration with SQL or cloud data sources
+Data visualization and storytelling
 
----
+Dashboard development
 
-## 👤 Author
+Cloud deployment
 
-**Amanuel Birri**
-Data & Analytics Engineer | Data Scientist
-🔗 [LinkedIn](https://www.linkedin.com/in/amanuel-birri)
-💻 [GitHub](https://github.com/AmanuelKBr)
+Business-oriented insight delivery
 
----
+📈 Future Enhancements
 
-## 📄 License
+Interactive filters (Region, Product, Sales Method)
 
-This project is for **educational and portfolio purposes**. Dataset used for analysis demonstration only.
+Profit and margin trend analysis
 
+Time-series forecasting
+
+Integration with SQL or cloud data sources
+
+👤 Author
+
+Amanuel Birri
+Data & Analytics Engineer | Applied Data Scientist
+🔗 LinkedIn | 💻 GitHub
+
+📄 License
+
+This project is for educational and portfolio purposes only. The dataset is used solely for demonstration.
