@@ -46,6 +46,7 @@ This project demonstrates **end-to-end data analysis skills**, from data ingesti
 ├── adidas-logo.jpg            # Branding image
 ├── app.py                     # Streamlit dashboard application
 ├── README.md                  # Project documentation
+├── requirements.txt           # Required imports to keep the app running
 ```
 
 ---
