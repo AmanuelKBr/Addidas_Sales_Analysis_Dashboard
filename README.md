@@ -170,6 +170,7 @@ streamlit run app.py
 
 **Amanuel Birri**
 Data & Analytics Engineer | Data Scientist
+Dashboard URL: https://addidassalesanalysisdashboard-cfgybbqrsmgw2r6w2abwtu.streamlit.app/
 🔗 [LinkedIn](https://www.linkedin.com/in/amanuel-birri)
 💻 [GitHub](https://github.com/AmanuelKBr)
 
