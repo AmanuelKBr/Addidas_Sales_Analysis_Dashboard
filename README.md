@@ -141,7 +141,9 @@ pip install streamlit pandas plotly pillow openpyxl
 ```bash
 streamlit run app.py
 ```
-
+```OR click the Dashboard URL directly:
+https://addidassalesanalysisdashboard-cfgybbqrsmgw2r6w2abwtu.streamlit.app/
+```
 ---
 
 ## 🧠 Data Science Skills Demonstrated
@@ -170,7 +172,6 @@ streamlit run app.py
 
 **Amanuel Birri**
 Data & Analytics Engineer | Data Scientist
-Dashboard URL: https://addidassalesanalysisdashboard-cfgybbqrsmgw2r6w2abwtu.streamlit.app/
 🔗 [LinkedIn](https://www.linkedin.com/in/amanuel-birri)
 💻 [GitHub](https://github.com/AmanuelKBr)
 
